@@ -1,48 +1,38 @@
-# Online Exam Portal
+ Online Exam Portal
+ 
+ 📌 Project Overview
 
-## Project Overview
+Online Exam Portal is a web-based examination management system developed using **Flask** and **SQLite**. It helps educational institutions conduct secure and efficient online exams by providing separate modules for **Admins** and **Students**.
 
-Online Exam Portal is a web-based examination management system developed using Flask and SQLite. It is designed to simplify the process of conducting online exams for educational institutions by providing separate modules for Admins and Students.
+Admins can create exams, manage questions, monitor student activity, and evaluate results. Students can register, log in, attend exams, and view their results securely.
 
-The system allows administrators to create exams, manage questions, monitor students, and evaluate results, while students can register, log in, attend exams, and view their results securely.
-
-This project helps reduce manual work, improves exam management efficiency, and supports a smooth digital examination process.
+This project reduces manual work, improves transparency, and simplifies digital exam management.
 
 ---
 
-## Features
+## 🚀 Features
 
-### Admin Module
+### 👨‍💼 Admin Module
 
 * Admin Login Authentication
-* Create New Exams
+* Create and Manage Exams
 * Add and Manage Questions
 * View Student Performance
-* Monitor Exam Activity
 * Result Management
-* Dashboard for Full Control
+* Dashboard Control
+* Proctoring Support
 
-### Student Module
+### 👨‍🎓 Student Module
 
 * Student Registration and Login
-* Secure Exam Access
 * Attempt Online Exams
-* View Detailed Results
+* View Results
 * Performance Tracking
 * User-Friendly Dashboard
 
-### Additional Features
-
-* Flask-Based Backend
-* SQLite Database Integration
-* Responsive Frontend using HTML, CSS, JavaScript
-* Session Management
-* Proctoring Support
-* Result Analysis
-
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
 
@@ -59,7 +49,7 @@ This project helps reduce manual work, improves exam management efficiency, and 
 
 * SQLite
 
-### Tools Used
+### Tools
 
 * Visual Studio Code
 * Git
@@ -67,25 +57,14 @@ This project helps reduce manual work, improves exam management efficiency, and 
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
-```text
+```text id="vq6q8d"
 online_exam_portal/
 │
 ├── static/
-│   ├── css/
-│   └── js/
-│
 ├── templates/
-│   ├── admin/
-│   ├── student/
-│   ├── base.html
-│   ├── login.html
-│   └── register.html
-│
 ├── instance/
-│   └── exam_hall.db
-│
 ├── app.py
 ├── models.py
 ├── requirements.txt
@@ -95,101 +74,74 @@ online_exam_portal/
 
 ---
 
-## Installation and Setup
+## ⚡ Installation
 
-### Step 1: Clone the Repository
-
-```bash
+```bash id="ijm8z9"
 git clone https://github.com/Sumedha-15/online_exam_portal.git
-```
-
-### Step 2: Move into Project Folder
-
-```bash
 cd online_exam_portal
-```
-
-### Step 3: Create Virtual Environment
-
-```bash
 python -m venv venv
-```
-
-### Step 4: Activate Virtual Environment
-
-### For Windows
-
-```bash
 venv\Scripts\activate
-```
-
-### For Mac/Linux
-
-```bash
-source venv/bin/activate
-```
-
-### Step 5: Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
-
-### Step 6: Run the Project
-
-```bash
 python app.py
 ```
 
 ---
 
-## Real-World Use Case
+## 🌍 Real-World Use
 
 This project can be used by:
 
 * Colleges and Universities
 * Schools
 * Coaching Institutes
-* Online Certification Platforms
-* Training Organizations
+* Certification Platforms
 
-It helps institutions conduct secure and efficient online examinations without heavy manual management.
-
----
-
-## Limitations
-
-* Basic proctoring only
-* SQLite is not ideal for very large-scale systems
-* No AI-based cheating detection
-* Limited scalability for enterprise-level use
+It helps conduct secure online exams with better efficiency and less manual work.
 
 ---
 
-## Future Scope
+## 🔮 Future Scope
 
-* AI-Based Proctoring System
-* Face Detection and Anti-Cheating Features
+* AI-Based Proctoring
+* Face Detection
+* Live Monitoring
 * Email Notifications
-* Performance Analytics Dashboard
 * Cloud Deployment
-* Multi-Institution Support
-* Live Exam Monitoring
 * Certificate Generation
 
 ---
 
-## Author
+## 📸 Screenshots
 
-Developed by Sumedha Modi
-Lovely Professional University
+### Login Page
 
-Aspiring Software Engineer | Full-Stack Developer | Python & Flask Enthusiast
+<img width="1904" height="927" alt="login png" src="https://github.com/user-attachments/assets/0b2c4554-dd57-4e27-b784-d47c9022843b" />
+
+### Student Dashboard
+
+<img width="1883" height="911" alt="student_dashboard" src="https://github.com/user-attachments/assets/9a08a34e-62eb-41f6-91e5-db84dc3bdb5c" />
+
+### Admin Dashboard
+
+<img width="1883" height="911" alt="admin_dashboard" src="https://github.com/user-attachments/assets/ee960676-1d8d-44a8-aed6-06865df8f5cc" />
+
+### Exam Interface
+
+<img width="1919" height="913" alt="exam" src="https://github.com/user-attachments/assets/fab8278a-9396-4d2b-a126-22606e1d2719" />
 
 ---
 
-## GitHub Repository
-https://github.com/Sumedha-15/online_exam_portal
+## 👩‍💻 Author
 
+**Sumedha Modi**
+Lovely Professional University
+
+Aspiring Software Engineer | Full-Stack Developer
+
+---
+
+## 🔗 GitHub Repository
+
+https://github.com/Sumedha-15/online_exam_portal
 
 ---
